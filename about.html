@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Софрино-Груз | О компании</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="dist\src\css\main.css">
+    <script src="src\js\main.js"></script>
+
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="header__logo">
+                        <a href="index.html"><img src="src/icons/софрино-груз.svg" alt="Логотип Софрино-Груз"></a>
+
+        </div>
+
+        <ul class="header__list">
+            <li class="header__item">
+                <a href="index.html">услуги</a>
+            </li>
+            <li class="header__item">
+                <a href="teh.html">техника</a>
+            </li>
+            <li class="header__item">
+                <a href="about.html">О нас</a>
+            </li>
+        </ul>
+        <div class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>        
+    </header>
+
+    <!-- Основной контент -->
+    <main class="about-page">
+        <!-- Герой-секция с параллакс эффектом -->
+        <section class="about-hero">
+            <div class="about-hero__parallax" data-parallax="scroll" data-image-src="src/img/about-bg.jpg"></div>
+            <div class="about-hero__content">
+                <h1 class="about-hero__title">Наша история</h1>
+                <p class="about-hero__subtitle">С 2015 года обеспечиваем качественные грузоперевозки в Софрино</p>
+            </div>
+        </section>
+
+        <!-- Секция "О компании" -->
+        <section class="about-company">
+            <div class="about-company__container">
+                <div class="about-company__image">
+                    <img src="src\img\cars.jpg" alt="Наша команда" loading="lazy">
+                    <div class="about-company__badge">
+                        <span style="color: aliceblue; font-family: 'TD Mars';">2015</span>
+                        Год основания
+                    </div>
+                </div>
+                <div class="about-company__content">
+                    <h2 class="about-company__title">Кто мы</h2>
+                    <p class="about-company__text">Компания "Софрино-Груз" - это команда профессионалов, специализирующаяся на грузоперевозках сыпучих материалов и земляных работах. Мы начинались с одного КамАЗа, а сегодня наш парк насчитывает более 10 единиц современной спецтехники.</p>
+                    <p class="about-company__text">Наш основатель - Климантов Дмитрий, опытный специалист с 15-летним стажем в сфере грузоперевозок и строительства.</p>
+                    
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <div class="about-stat__number" data-count="10">0</div>
+                            <div class="about-stat__label">Единиц техники</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="about-stat__number" data-count="500">0</div>
+                            <div class="about-stat__label">Довольных клиентов</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="about-stat__number" data-count="7">0</div>
+                            <div class="about-stat__label">Лет на рынке</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Наши ценности" с анимированными карточками -->
+        <section class="about-values">
+            <div class="about-values__container">
+                <h2 class="about-values__title">Наши ценности</h2>
+                <div class="about-values__grid">
+                    <div class="value-card">
+                        <div class="value-card__icon">🚛</div>
+                        <h3 class="value-card__title">Надежность</h3>
+                        <p class="value-card__text">Гарантируем выполнение обязательств в срок без простоев и задержек</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-card__icon">💎</div>
+                        <h3 class="value-card__title">Качество</h3>
+                        <p class="value-card__text">Используем только проверенные материалы и современную технику</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-card__icon">🤝</div>
+                        <h3 class="value-card__title">Честность</h3>
+                        <p class="value-card__text">Четкое соблюдение договоренностей и прозрачное ценообразование</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Команда" -->
+        <section class="about-team">
+            <div class="about-team__container">
+                <h2 class="about-team__title">Наша команда</h2>
+                <div class="about-team__grid">
+                    <div class="team-member">
+                        <div class="team-member__photo">
+                            <img src="src\img\Dmitry.png" alt="Дмитрий Климантов" loading="lazy">
+                        </div>
+                        <h3 class="team-member__name">Дмитрий Климантов</h3>
+                        <p class="team-member__position">Основатель, директор</p>
+                        <p class="team-member__bio">15 лет опыта в грузоперевозках и строительстве</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-member__photo">
+                            <img src="src\img\Alex.jpg" alt="Алексей Петров" loading="lazy">
+                        </div>
+                        <h3 class="team-member__name">Алексей Петров</h3>
+                        <p class="team-member__position">Главный механик</p>
+                        <p class="team-member__bio">Обеспечивает исправность всей техники</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-member__photo">
+                            <img src="src\img\Ivan.jpg" alt="Иван Сидоров" loading="lazy">
+                        </div>
+                        <h3 class="team-member__name">Иван Сидоров</h3>
+                        <p class="team-member__position">Старший водитель</p>
+                        <p class="team-member__bio">10 лет безаварийной работы</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+    </main>
+
+<footer class="contacts-section">
+    <div class="contacts-container">
+        <div class="contacts-content">
+            <h2 class="contacts-title">Грузоперевозки песка и щебня в Софрино с 2015 года</h2>
+            
+            <div class="contacts-info">
+                <h3 class="contacts-subtitle">Контактные данные:</h3>
+                <div class="contacts-item">
+
+                    <span class="contacts-text">Номер телефона: <a href="tel:89854565478" class="contacts-link">8-985-456-54-78</a></span>
+                </div>
+                <div class="contacts-item">
+
+                    <span class="contacts-text">Адрес: <span class="contacts-address">Софрино, Ярославское шоссе, д. 178к25</span></span>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <h3 class="contacts-subtitle">Социальные сети:</h3>
+                <div class="social-items">
+                    <a href="#" class="social-link telegram">
+
+                        <span>TELEGRAM</span>
+                    </a>
+                    <a href="#" class="social-link whatsapp">
+
+                        <span>WHATSAPP</span>
+                    </a>
+                    <a href="#" class="social-link vk">
+
+                        <span>ВКонтакте</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contacts-map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1234567890abcdef&amp;source=constructor" width="100%" height="300" frameborder="0"></iframe>
+        </div>
+    </div>
+</footer>
+
+    <!-- Параллакс скрипт -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script>
+        // Анимация цифр
+        function animateNumbers() {
+            const counters = document.querySelectorAll('.about-stat__number');
+            const speed = 200;
+            
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-count');
+                const count = +counter.innerText;
+                const increment = target / speed;
+                
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + increment);
+                    setTimeout(animateNumbers, 100);
+                } else {
+                    counter.innerText = target + '+';
+                }
+            });
+        }
+        
+        // Запуск анимации при скролле
+        window.addEventListener('scroll', function() {
+            const statsSection = document.querySelector('.about-stats');
+            const sectionPosition = statsSection.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.3;
+            
+            if (sectionPosition < screenPosition) {
+                animateNumbers();
+                window.removeEventListener('scroll', this);
+            }
+        });
+    </script>
+</body>
+</html>
